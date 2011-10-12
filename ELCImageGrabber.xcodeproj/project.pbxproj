@@ -14,9 +14,8 @@
 		830ACEE11446418600AEEBE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 830ACEE01446418600AEEBE9 /* main.m */; };
 		830ACEE51446418600AEEBE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830ACEE41446418600AEEBE9 /* AppDelegate.m */; };
 		830ACEE81446418600AEEBE9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830ACEE61446418600AEEBE9 /* MainStoryboard_iPhone.storyboard */; };
-		830ACEEB1446418600AEEBE9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830ACEE91446418600AEEBE9 /* MainStoryboard_iPad.storyboard */; };
 		830ACEEE1446418600AEEBE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830ACEED1446418600AEEBE9 /* ViewController.m */; };
-		830ACEF5144648BF00AEEBE9 /* elc_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 830ACEF4144648BF00AEEBE9 /* elc_logo.jpg */; };
+		830ACEF714465DD800AEEBE9 /* white-300.png in Resources */ = {isa = PBXBuildFile; fileRef = 830ACEF614465DD800AEEBE9 /* white-300.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +30,9 @@
 		830ACEE31446418600AEEBE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		830ACEE41446418600AEEBE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		830ACEE71446418600AEEBE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		830ACEEA1446418600AEEBE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		830ACEEC1446418600AEEBE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		830ACEED1446418600AEEBE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		830ACEF4144648BF00AEEBE9 /* elc_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elc_logo.jpg; sourceTree = "<group>"; };
+		830ACEF614465DD800AEEBE9 /* white-300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-300.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 				830ACEE31446418600AEEBE9 /* AppDelegate.h */,
 				830ACEE41446418600AEEBE9 /* AppDelegate.m */,
 				830ACEE61446418600AEEBE9 /* MainStoryboard_iPhone.storyboard */,
-				830ACEE91446418600AEEBE9 /* MainStoryboard_iPad.storyboard */,
 				830ACEEC1446418600AEEBE9 /* ViewController.h */,
 				830ACEED1446418600AEEBE9 /* ViewController.m */,
 				830ACEDB1446418600AEEBE9 /* Supporting Files */,
@@ -95,7 +92,7 @@
 		830ACEDB1446418600AEEBE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				830ACEF4144648BF00AEEBE9 /* elc_logo.jpg */,
+				830ACEF614465DD800AEEBE9 /* white-300.png */,
 				830ACEDC1446418600AEEBE9 /* ELCImageGrabber-Info.plist */,
 				830ACEDD1446418600AEEBE9 /* InfoPlist.strings */,
 				830ACEE01446418600AEEBE9 /* main.m */,
@@ -157,8 +154,7 @@
 			files = (
 				830ACEDF1446418600AEEBE9 /* InfoPlist.strings in Resources */,
 				830ACEE81446418600AEEBE9 /* MainStoryboard_iPhone.storyboard in Resources */,
-				830ACEEB1446418600AEEBE9 /* MainStoryboard_iPad.storyboard in Resources */,
-				830ACEF5144648BF00AEEBE9 /* elc_logo.jpg in Resources */,
+				830ACEF714465DD800AEEBE9 /* white-300.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,14 +188,6 @@
 				830ACEE71446418600AEEBE9 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		830ACEE91446418600AEEBE9 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				830ACEEA1446418600AEEBE9 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,6 +247,7 @@
 				GCC_PREFIX_HEADER = "ELCImageGrabber/ELCImageGrabber-Prefix.pch";
 				INFOPLIST_FILE = "ELCImageGrabber/ELCImageGrabber-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -270,6 +259,7 @@
 				GCC_PREFIX_HEADER = "ELCImageGrabber/ELCImageGrabber-Prefix.pch";
 				INFOPLIST_FILE = "ELCImageGrabber/ELCImageGrabber-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
