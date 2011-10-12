@@ -80,10 +80,11 @@ bool KEEP_DOWNLOADING = YES;
 {
     KEEP_DOWNLOADING = NO;
     [spinner stopAnimating];
-    mainImageView.image = nil;
     imageCountSlider.enabled = YES;
     goButton.enabled = YES;
     stopButton.enabled = NO;
+    
+    mainImageView.image = [UIImage imageNamed:@"white-300.png"];
 }
 
 - (void)getImageUrls 
