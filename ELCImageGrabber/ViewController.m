@@ -113,11 +113,10 @@ bool KEEP_DOWNLOADING = YES;
 {
     dispatch_queue_t image_queue = dispatch_queue_create("com.elctech.image_queue", NULL);
 
-    int downloaded = 0;
-    for (NSURL *url in self.imageUrls) {
+    for (int i = 0; i < MAX_IMAGES; i++) {
         dispatch_async(image_queue, ^{
             if (KEEP_DOWNLOADING) {
-                UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
+                UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[self.imageUrls objectAtIndex:i]]];
                 UIImageWriteToSavedPhotosAlbum(image, self, nil, NULL);
                 
                 //back on the main thread
@@ -127,16 +126,13 @@ bool KEEP_DOWNLOADING = YES;
                         mainImageView.image = image; 
                     }
                     
-                    if (downloaded == MAX_IMAGES) {
+                    if (i == MAX_IMAGES - 1) {
                         [self cancelDownloads:nil];
                     }
                     
                 });
             }
         });
-        
-        downloaded++;
-
     }
     
     dispatch_release(image_queue);
