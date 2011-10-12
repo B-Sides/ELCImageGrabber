@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830ACED51446418600AEEBE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830ACED41446418600AEEBE9 /* UIKit.framework */; };
+		830ACED71446418600AEEBE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830ACED61446418600AEEBE9 /* Foundation.framework */; };
+		830ACED91446418600AEEBE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830ACED81446418600AEEBE9 /* CoreGraphics.framework */; };
+		830ACEDF1446418600AEEBE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 830ACEDD1446418600AEEBE9 /* InfoPlist.strings */; };
+		830ACEE11446418600AEEBE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 830ACEE01446418600AEEBE9 /* main.m */; };
+		830ACEE51446418600AEEBE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 830ACEE41446418600AEEBE9 /* AppDelegate.m */; };
+		830ACEE81446418600AEEBE9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830ACEE61446418600AEEBE9 /* MainStoryboard_iPhone.storyboard */; };
+		830ACEEB1446418600AEEBE9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830ACEE91446418600AEEBE9 /* MainStoryboard_iPad.storyboard */; };
+		830ACEEE1446418600AEEBE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 830ACEED1446418600AEEBE9 /* ViewController.m */; };
+		830ACEF5144648BF00AEEBE9 /* elc_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 830ACEF4144648BF00AEEBE9 /* elc_logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		830ACED01446418600AEEBE9 /* ELCImageGrabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELCImageGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830ACED41446418600AEEBE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		830ACED61446418600AEEBE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		830ACED81446418600AEEBE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		830ACEDC1446418600AEEBE9 /* ELCImageGrabber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ELCImageGrabber-Info.plist"; sourceTree = "<group>"; };
+		830ACEDE1446418600AEEBE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		830ACEE01446418600AEEBE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		830ACEE21446418600AEEBE9 /* ELCImageGrabber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ELCImageGrabber-Prefix.pch"; sourceTree = "<group>"; };
+		830ACEE31446418600AEEBE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		830ACEE41446418600AEEBE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		830ACEE71446418600AEEBE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		830ACEEA1446418600AEEBE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		830ACEEC1446418600AEEBE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		830ACEED1446418600AEEBE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		830ACEF4144648BF00AEEBE9 /* elc_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elc_logo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830ACECD1446418600AEEBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830ACED51446418600AEEBE9 /* UIKit.framework in Frameworks */,
+				830ACED71446418600AEEBE9 /* Foundation.framework in Frameworks */,
+				830ACED91446418600AEEBE9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830ACEC51446418600AEEBE9 = {
+			isa = PBXGroup;
+			children = (
+				830ACEDA1446418600AEEBE9 /* ELCImageGrabber */,
+				830ACED31446418600AEEBE9 /* Frameworks */,
+				830ACED11446418600AEEBE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		830ACED11446418600AEEBE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830ACED01446418600AEEBE9 /* ELCImageGrabber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830ACED31446418600AEEBE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830ACED41446418600AEEBE9 /* UIKit.framework */,
+				830ACED61446418600AEEBE9 /* Foundation.framework */,
+				830ACED81446418600AEEBE9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		830ACEDA1446418600AEEBE9 /* ELCImageGrabber */ = {
+			isa = PBXGroup;
+			children = (
+				830ACEE31446418600AEEBE9 /* AppDelegate.h */,
+				830ACEE41446418600AEEBE9 /* AppDelegate.m */,
+				830ACEE61446418600AEEBE9 /* MainStoryboard_iPhone.storyboard */,
+				830ACEE91446418600AEEBE9 /* MainStoryboard_iPad.storyboard */,
+				830ACEEC1446418600AEEBE9 /* ViewController.h */,
+				830ACEED1446418600AEEBE9 /* ViewController.m */,
+				830ACEDB1446418600AEEBE9 /* Supporting Files */,
+			);
+			path = ELCImageGrabber;
+			sourceTree = "<group>";
+		};
+		830ACEDB1446418600AEEBE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				830ACEF4144648BF00AEEBE9 /* elc_logo.jpg */,
+				830ACEDC1446418600AEEBE9 /* ELCImageGrabber-Info.plist */,
+				830ACEDD1446418600AEEBE9 /* InfoPlist.strings */,
+				830ACEE01446418600AEEBE9 /* main.m */,
+				830ACEE21446418600AEEBE9 /* ELCImageGrabber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830ACECF1446418600AEEBE9 /* ELCImageGrabber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830ACEF11446418600AEEBE9 /* Build configuration list for PBXNativeTarget "ELCImageGrabber" */;
+			buildPhases = (
+				830ACECC1446418600AEEBE9 /* Sources */,
+				830ACECD1446418600AEEBE9 /* Frameworks */,
+				830ACECE1446418600AEEBE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELCImageGrabber;
+			productName = ELCImageGrabber;
+			productReference = 830ACED01446418600AEEBE9 /* ELCImageGrabber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830ACEC71446418600AEEBE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ELC Technologies";
+			};
+			buildConfigurationList = 830ACECA1446418600AEEBE9 /* Build configuration list for PBXProject "ELCImageGrabber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 830ACEC51446418600AEEBE9;
+			productRefGroup = 830ACED11446418600AEEBE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830ACECF1446418600AEEBE9 /* ELCImageGrabber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830ACECE1446418600AEEBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830ACEDF1446418600AEEBE9 /* InfoPlist.strings in Resources */,
+				830ACEE81446418600AEEBE9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				830ACEEB1446418600AEEBE9 /* MainStoryboard_iPad.storyboard in Resources */,
+				830ACEF5144648BF00AEEBE9 /* elc_logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830ACECC1446418600AEEBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830ACEE11446418600AEEBE9 /* main.m in Sources */,
+				830ACEE51446418600AEEBE9 /* AppDelegate.m in Sources */,
+				830ACEEE1446418600AEEBE9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		830ACEDD1446418600AEEBE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830ACEDE1446418600AEEBE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		830ACEE61446418600AEEBE9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830ACEE71446418600AEEBE9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		830ACEE91446418600AEEBE9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830ACEEA1446418600AEEBE9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830ACEEF1446418600AEEBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		830ACEF01446418600AEEBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830ACEF21446418600AEEBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELCImageGrabber/ELCImageGrabber-Prefix.pch";
+				INFOPLIST_FILE = "ELCImageGrabber/ELCImageGrabber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		830ACEF31446418600AEEBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ELCImageGrabber/ELCImageGrabber-Prefix.pch";
+				INFOPLIST_FILE = "ELCImageGrabber/ELCImageGrabber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830ACECA1446418600AEEBE9 /* Build configuration list for PBXProject "ELCImageGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830ACEEF1446418600AEEBE9 /* Debug */,
+				830ACEF01446418600AEEBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830ACEF11446418600AEEBE9 /* Build configuration list for PBXNativeTarget "ELCImageGrabber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830ACEF21446418600AEEBE9 /* Debug */,
+				830ACEF31446418600AEEBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 830ACEC71446418600AEEBE9 /* Project object */;
+}
